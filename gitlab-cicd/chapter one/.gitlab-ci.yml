@@ -1,0 +1,15 @@
+run_tests:
+  before_script:
+    - echo "Setting up environment for tests..."
+  script:
+    - echo "Running tests..."
+  after_script:
+    - echo "Cleaning up after tests..."
+
+build_image:
+  script:
+    - echo "Building Docker image..."
+
+push_image:
+  script:
+    - echo "Pushing Docker image to registry..."
